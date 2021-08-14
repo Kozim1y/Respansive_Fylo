@@ -748,7 +748,7 @@ footer
   main .cards ul
   {
     padding-left: 0;
-    max-width: 336px;
+    max-width: 320px;
   }
 
   main .cards ul li
@@ -758,6 +758,7 @@ footer
     padding: 0;
     padding-bottom: 20px;
     margin-bottom: 30px;
+    width: auto;
   }
 
   main .cards ul li img
@@ -783,14 +784,15 @@ footer
   .box-2
   {
     flex-wrap: wrap;
-    width: 320px;
+    width: 310px;
     margin: 0;
     padding: 0;
+    display: block;
   }
 
   .box-2-left img
   {
-    width: 320px;
+    width: 310px;
     height: 230px;
     margin-left: auto;
     margin-right: auto;
@@ -798,7 +800,7 @@ footer
 
   .box-2-right
   {
-    width: 320px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     margin: 0;
@@ -806,7 +808,7 @@ footer
 
   .box-2-right h2
   {
-    max-width: 320px;
+    max-width: 300px;
     height: 100%;
     font-size: 18px;
     margin: 0;
@@ -875,10 +877,8 @@ footer
 
     .box-4
   {
-    width: 330px;
+    width: 300px;
     height: 353px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: -80px;
   }
 
