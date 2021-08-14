@@ -1023,8 +1023,9 @@ footer
 
   .box
 {
-  max-width: 500px;
+  max-width: 375px;
   margin-top: 80px;
+  width: auto;
 }
 
   .box img
@@ -1055,6 +1056,7 @@ footer
   main
   {
     height: auto;
+    width: auto;
   }
 
   main .cards
@@ -1067,12 +1069,13 @@ footer
     margin-right: auto;
     margin-left: auto;
     flex-wrap: wrap;
+    width: auto;
   }
 
   main .cards ul
   {
     padding-left: 0;
-    max-width: 400px;
+    max-width: 355px;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
@@ -1087,6 +1090,7 @@ footer
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+    width: 350px;
   }
 
   main .cards ul li img
